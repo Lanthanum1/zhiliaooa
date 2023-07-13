@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7b89d2b2-30cb-4f91-9e50-b4230c933e11" name="huaweiyun" url="http://121.37.179.80">
+        <fileTransfer accessType="SFTP" host="121.37.179.80" port="22" sshConfigId="1245d5fc-7589-467b-8b0d-07be883503b2" sshConfig="root@121.37.179.80:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
