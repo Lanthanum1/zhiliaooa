@@ -18,6 +18,7 @@ class QuestionModel(db.Model):
     create_time = db.Column(db.DateTime,default=datetime.now,nullable=False)
     author_id = db.Column(db.Integer,db.ForeignKey('user.id'))
     author = db.relationship('UserModel',backref=db.backref('questions'))
+    # back_ref相当于在User模型中创建了一个questions属性，可以通过user id来获取他写过的所有questions
 
 class AnswerModel(db.Model):
     __tablename__ = 'answer'
